@@ -7,7 +7,7 @@ p.consolas {
 
 #intro {
    color: red;
-   background-color: gray;
+   background-color: yellow;
 }
 
 .steps {
@@ -15,3 +15,6 @@ p.consolas {
    background-color: white;
    font-size: 1.4em;
 }
+
+.steps {border-style: dotted; border-width: 5px;}
+.dotted {border-style: dotted;}
