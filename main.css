@@ -18,3 +18,7 @@ p.consolas {
 
 .steps {border-style: dotted; border-width: 5px;}
 .dotted {border-style: dotted;}
+img {
+    max-width: 100%;
+    height: auto;
+}
