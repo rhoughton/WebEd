@@ -9,6 +9,36 @@
 .dotted {color: red;
    border-style: dotted;}
    </style>
+   <script>
+      function badTest(){
+         var startTime = new Date().valueOf();
+         var s = "";
+         for (var i = 0; i < 1000; i++){
+            s += "This is a test string1";
+         }
+         return new Date().valueOf()-stateTime;
+      }
+      function goodTest(){
+      var startTime = new Date().valueOf();
+         var stringBuffer = new Array();
+         for (var i=0, i<10000; i++){
+            stringBuffer.push("This is a test string");
+         }
+         function betterTest(){
+            var startTime = newDate().valueof();
+            var stringBuffer = new Array();
+            for (var i=0, i<10000; i++) {
+               stringBuffer[stringBuffer.length] = "This is the last test";
+            }
+            function do Tests(){
+               var htm = ""
+               htm += "Time bad test took: " +badTest()+"<br>";
+               htm += "Time good test took: " +goodTest()+"<br>";
+               htm += "Time better test took: " +betterTest();
+               document.getElementById("result").innerHTML = htm;
+            }
+     
+       
    </head>
 <body>
    <h1> CSS is a pain! </h1>
