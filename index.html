@@ -10,35 +10,6 @@
    border-style: dotted;}
    </style>
    <script>
-      function badTest(){
-         var startTime = new Date().valueOf();
-         var s = "";
-         for (var i = 0; i < 1000; i++){
-            s += "This is a test string1";
-         }
-         return new Date().valueOf()-stateTime;
-      }
-      function goodTest(){
-      var startTime = new Date().valueOf();
-         var stringBuffer = new Array();
-         for (var i=0, i<10000; i++){
-            stringBuffer.push("This is a test string");
-         }
-         function betterTest(){
-            var startTime = newDate().valueof();
-            var stringBuffer = new Array();
-            for (var i=0, i<10000; i++) {
-               stringBuffer[stringBuffer.length] = "This is the last test";
-            }
-            function do Tests(){
-               var htm = ""
-               htm += "Time bad test took: " +badTest()+"<br>";
-               htm += "Time good test took: " +goodTest()+"<br>";
-               htm += "Time better test took: " +betterTest();
-               document.getElementById("result").innerHTML = htm;
-            }
-          
-            Tests();
    </script>
        
    </head>
@@ -47,7 +18,7 @@
    <div id="intro">
    <p> Creating borders and adding images will make people like your website more</p>
 </div>
-   <p>zzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p>
+   <p></p>
 <div class="steps">
    <p>To create a border the CSS one would use looks like this: .example {border-styles: dotted; </p>
    </div>
