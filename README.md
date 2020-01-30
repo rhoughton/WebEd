@@ -1,1 +1,1 @@
-This will be a website I use to show what I've learned in terms of website creation! 
+In order to better understand how different languages work together, I created this "WebEd" to teach while doing!
